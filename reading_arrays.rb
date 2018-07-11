@@ -18,17 +18,14 @@ def fourth_student_by_index
 end
 
 def last_student_by_index
-  STUDENT_NAMES = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
   return STUDENT_NAMES[5]
 end
 
 def first_student_by_method
-  STUDENT_NAMES = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
   return STUDENT_NAMES.first
 end
 
 def last_student_by_method
-  STUDENT_NAMES = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
   return STUDENT_NAMES.last
 end
 
