@@ -1,4 +1,4 @@
-STUDENT_NAMES = [
+student_names = [
   "Adele",
   "Beyoncé",
   "Cardi B",
@@ -8,25 +8,25 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  STUDENT_NAMES[0]
+  puts student_names[0]
 end
 
 def fourth_student_by_index
-  STUDENT_NAMES[3]
+  puts student_names[3]
 end
 
 def last_student_by_index
-  STUDENT_NAMES[5]
+  puts student_names[5]
 end
 
 def first_student_by_method
-  STUDENT_NAMES.first
+  puts student_names.first
 end
 
 def last_student_by_method
-  STUDENT_NAMES.last
+  puts student_names.last
 end
 
 def first_second_and_third_students
-  STUDENT_NAMES[0,1,2]
+  puts student_names[0,1,2]
 end
