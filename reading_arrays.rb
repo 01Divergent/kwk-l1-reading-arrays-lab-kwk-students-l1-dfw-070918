@@ -1,4 +1,4 @@
-student_names = [
+STUDENT_NAMES = [
   "Adele",
   "Beyoncé",
   "Cardi B",
@@ -9,7 +9,7 @@ student_names = [
 
 def first_student_by_index
   student_names = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
-  return student_names[0]
+  return STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
