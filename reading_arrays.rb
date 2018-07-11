@@ -56,14 +56,7 @@ def first_student_by_method
 end
 
 def last_student_by_method
-  student_names = [
-  "Adele",
-  "Beyoncé",
-  "Cardi B",
-  "Lady Gaga",
-  "Nicki Minaj",
-  "Rihanna"
-]
+  student_names = ["Adele","Beyoncé","Cardi B","Lady Gaga","Nicki Minaj","Rihanna"]
   puts student_names.last
 end
 
